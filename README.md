@@ -40,3 +40,11 @@ This is also summarized below:
 
 
 ## Future Uses
+Assuming the data has been structured and stored in a similar manner, the code used for the analysis could be recycled for a different set of results.  The only thing that would likely need to be changed is the path to which data will be pulled and the path to which it will be saved, as shown below:
+
+```py
+# Add a variable to load a file from a path.
+file_to_load = os.path.join("Resources/election_results.csv")
+# Add a variable to save the file to a path.
+file_to_save = os.path.join("analysis", "election_analysis.txt")
+```
