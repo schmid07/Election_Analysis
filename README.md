@@ -49,4 +49,4 @@ file_to_load = os.path.join("UPDATE FILE PATH")
 file_to_save = os.path.join("UPDATE FILE PATH")
 ```
 
-Were the results to be provided in Excel, we would need to read in the program using a function from Pandas.
+Were the results to be provided in Excel, we could read in the results using a function from Pandas.
