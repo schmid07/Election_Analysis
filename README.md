@@ -13,7 +13,7 @@ A Colorado Board of Elections employee has given me the following tasks to compl
 ## Resources
 
 - Data Source: election_results.csv
-- Softward: Python 3.7.6, Visual Studio Code
+- Software: Python 3.7.6, Visual Studio Code
 
 ## Summary
 The analysis of the election shows that:
@@ -44,7 +44,9 @@ Assuming the data has been structured and stored in a similar manner, the code u
 
 ```py
 # Add a variable to load a file from a path.
-file_to_load = os.path.join("Resources/election_results.csv")
+file_to_load = os.path.join("UPDATE FILE PATH")
 # Add a variable to save the file to a path.
-file_to_save = os.path.join("analysis", "election_analysis.txt")
+file_to_save = os.path.join("UPDATE FILE PATH")
 ```
+
+Were the results to be provided in Excel, we would need to read in the program using a function from Pandas.
